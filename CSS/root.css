@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --scroll-bar-track-color: transparent;
+
+    --nav-color: white;
+
+    --main-section-color: white;
+    --main-section-facebook-color: #1877F2;
+    --main-section-linkedin-color: #0077B5;
+    --main-section-instagram-1-color: #fccc63;
+    --main-section-instagram-2-color: #fbad50;
+    --main-section-instagram-3-color: #cd486b;
+    --main-section-instagram-4-color: #4c68d7;
+    --main-section-github-color: #171515;
+
+    --name-prof-color: white;
+
+    --project-overview-color-1: linear-gradient(
+        180deg,
+        rgb(50, 50, 50),
+        rgb(20, 20, 20));
+        --project-overview-color-2: white;
+    --project-overview-hover-color: rgb(10, 10, 10);
+    --project-overview-heimdal-color: #71BBF2;
+    --project-overview-heimdal-color-2: #28317F;
+    --project-overview-nightflow-color: #172C63;
+    --project-overview-3house-color: #4C9B98;
+    --project-overview-drone-color: #D9BAA8;
+    --project-overview-robot-arm-color: white;
+    --project-overview-pedal-color: #F5F4EF;
+    --project-overview-pedal-color-2: #FFFFC2;
+    --project-overview-app-color: #282C34;
+    --project-overview-app-color-2: #61DAFB;
+    --project-overview-escape-room-color: #C79C72;
+    --project-overview-menu-color: #0C0C0C;
+    --project-overview-menu-color-2: #2E2E2E;
+    --project-overview-game-color: #272727;
+}

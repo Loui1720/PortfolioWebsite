@@ -1,0 +1,121 @@
+#main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 28rem;
+    padding: 0 1rem;
+}
+
+.sec-1 {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-top: solid 1px black;
+    transition: 0.25s ease;
+}
+.mid-left-element:last-child {
+    border-bottom: solid 1px black;
+}
+/* Facebook */
+.fa-facebook {
+    background-color: var(--main-section-facebook-color);
+    color: white;
+}
+.fa-facebook:hover {
+    background-color: white;
+    color: var(--main-section-facebook-color);
+}
+/* Linked in */
+.fa-linkedin {
+    background-color: var(--main-section-linkedin-color);
+    color: white;
+}
+.fa-linkedin:hover {
+    background-color: white;
+    color: var(--main-section-linkedin-color);
+}
+/* Instagram */
+.fa-instagram {
+    background-image: linear-gradient(0deg, 
+        var(--main-section-instagram-1-color),
+        var(--main-section-instagram-2-color),
+        var(--main-section-instagram-3-color),
+        var(--main-section-instagram-4-color));
+    color: white;
+}
+.fa-instagram:hover {
+    background-clip: text;
+    color: transparent;
+}
+/* Github */
+.fa-github {
+    background-color: var(--main-section-github-color);
+    color: white;
+}
+.fa-github:hover {
+    background-color: white;
+    color: var(--main-section-github-color);
+}
+/* Codepen */
+.fa-codepen {
+    background-color: var(--main-section-github-color);
+    color: white;
+}
+.fa-codepen:hover {
+    background-color: white;
+    color: var(--main-section-github-color);
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 28rem;
+}
+
+.sec-3 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    height: 28rem;
+}
+.fl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    overflow: hidden;
+}
+@media (min-width: 1000px) {
+    .sec-1,
+    .sec-3 {
+        padding: 0 50px;
+    }
+}
+@media (min-width: 1500px) {
+    .sec-1,
+    .sec-3 {
+        padding: 0 75px;
+    }
+}
+@media (min-width: 2000px) {
+    .sec-1,
+    .sec-3 {
+        padding: 0 100px;
+    }
+}

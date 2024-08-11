@@ -1,0 +1,14 @@
+.text-container {
+    background-color: var(--name-prof-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.text-upper {
+    font-weight: bolder;
+}
+.text-under {
+    opacity: 0.5;
+}

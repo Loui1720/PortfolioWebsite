@@ -1,0 +1,18 @@
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.slide-container .slide-item {
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+    flex: 0 0 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
